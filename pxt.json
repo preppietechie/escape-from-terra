@@ -8,7 +8,8 @@
         "controller": "*",
         "storyboard": "*",
         "arcade-text": "github:microsoft/arcade-text#v1.3.0",
-        "darts": "*"
+        "darts": "*",
+        "story": "github:riknoll/arcade-story#v1.3.1"
     },
     "files": [
         "main.blocks",
