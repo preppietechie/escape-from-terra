@@ -547,14 +547,14 @@ story.startConveration(function () {
         `, SpriteKind.title)
 })
 game.onUpdateInterval(randint(4000, 6000), function () {
-    if (level > 1) {
+    if (level >= 1) {
         if (L1EnemyCount <= waveCount) {
             spawnAsteroid()
         }
     }
 })
 game.onUpdateInterval(randint(500, 2000), function () {
-    if (level > 1) {
+    if (level >= 1) {
         if (L1EnemyCount <= waveCount) {
             spawnL1Enemy()
         }
